@@ -55,7 +55,6 @@ uvicorn app:app --port 8000 --reload
 | **[Frontend Integration](./docs/frontend-integration.md)** | Complete integration guide with examples | Frontend Developers |
 | **[API Reference](./docs/api-reference.md)** | Detailed API documentation | All Developers |
 | **[Architecture Deep Dive](./docs/architecture.md)** | Technical architecture and design patterns | Backend Developers |
-| **[Setup & Deployment](./docs/setup-deployment.md)** | Installation, configuration, and deployment | DevOps/Developers |
 | **[Examples & Use Cases](./docs/examples.md)** | Real-world implementation examples | All Developers |
 
 ## 🔥 Quick Examples
@@ -133,8 +132,7 @@ const analysis = await fetch('http://localhost:8000/chat', {
 
 ### 🏗️ **Backend Developers** 
 1. **[Architecture Deep Dive](./docs/architecture.md)** - System design and patterns
-2. **[Setup & Deployment](./docs/setup-deployment.md)** - Local and production setup
-3. Explore the codebase: `backend/` directory
+2. Explore the codebase: `backend/` directory
 
 ### 📋 **Product Managers**
 1. **[System Overview](./docs/system-overview.md)** - Capabilities and benefits
