@@ -34,6 +34,12 @@ cd backend
 uvicorn app:app --port 8000 --reload
 ```
 
+**Alternative: Run with Docker**
+```bash
+# Set up .env file first, then:
+docker compose up --build -d
+```
+
 **API Documentation**: `http://localhost:8000/docs`
 
 ## 🎯 Key Features
