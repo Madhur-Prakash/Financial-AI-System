@@ -6,15 +6,32 @@ A comprehensive FastAPI backend that provides AI-powered financial analysis, per
 
 ## 🚀 Quick Start
 
+1. Clone the repository
 ```bash
-# 1. Install dependencies
+git clone https://github.com/Madhur-Prakash/Financial-AI-System-V2.git
+cd financial_ai_system_v2
+```
+
+2. Create virtual environment (recommended)
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
+
+3. Install dependencies
+```bash
 pip install -r requirements.txt
+```
 
-# 2. Set up environment
-echo "GROQ_API_KEY=your_groq_api_key_here" > .env
+4. Set up environment variables
+```bash
+# Copy the .env.sample file to .env and fill in the required values.
+```
 
-# 3. Start server
-python main.py
+5. Start the server
+```bash
+cd backend
+uvicorn app:app --port 8000 --reload
 ```
 
 **API Documentation**: `http://localhost:8000/docs`
